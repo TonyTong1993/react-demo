@@ -19,9 +19,20 @@ body {
   border-width: 1px 0;
   background: #666;
 }
+.style-TodoList {
+  list-style:none;
+  margin: 0px;
+  padding: 0px;
+}
 .normal-Todo {
   text-decoration: none;
+  margin: 10px;
+  background: red;
+  height: 44px;
 }
 .selected-Todo {
+  margin: 10px;
+  background: red;
+  height: 44px;
   text-decoration: line-through;
 }

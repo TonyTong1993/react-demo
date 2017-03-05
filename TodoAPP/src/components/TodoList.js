@@ -5,7 +5,7 @@ import React from 'react';
 import Todo from './Todo.js'
 const TodoList = ({todoArray,onTodoClick})=>{
     return (
-      <ul>
+      <ul className="style-TodoList">
           {todoArray.map(t =>{
               return <Todo key={t.id} { ...t } onClick={()=>onTodoClick(t.id)}></Todo>
           })}
